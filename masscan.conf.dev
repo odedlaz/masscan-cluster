@@ -1,0 +1,8 @@
+wait = 10
+adapter = wlp3s0
+exclude = 127.0.0.1
+rate =  100000000.0
+output-format = json
+output-filename = masscan.out
+range = 192.168.0.0-192.168.255.255
+ports = 80,443,22
